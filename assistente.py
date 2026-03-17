@@ -39,4 +39,5 @@ assistente = AssitenteMaratona()
 minha_lista = ["Breaking Bad", "Round 6", "SerieQueNaoExiste"]
 
 for serie in minha_lista:
-    assistente.buscar_serie(serie)
+    resultado = assistente.buscar_serie(serie)
+    print(resultado)
