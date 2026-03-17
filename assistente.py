@@ -36,7 +36,7 @@ class AssitenteMaratona():
 assistente = AssitenteMaratona()
 
 
-minha_lista = ["Breaking Bad", "Round 6", "SerieQueNaoExiste"]
+minha_lista = ["Breaking Bad", "Round six", "SerieQueNaoExiste"]
 
 for serie in minha_lista:
     resultado = assistente.buscar_serie(serie)
